@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/currency_widget_activity_canvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/lblValue"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/cw_lblMinMax"
+        android:layout_toRightOf="@+id/cw_lblMinMax"
+        android:contentDescription="Bitcoin price"
+        android:text="------.--"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cw_lblMinMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Bitcoin price"
+        android:text="●"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblLastUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblValue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:text="AAA / BBB   --:--"
+        android:textColor="#E1E1E1"
+        android:textSize="12sp" />
+
+</RelativeLayout>

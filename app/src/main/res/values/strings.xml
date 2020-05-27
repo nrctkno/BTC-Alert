@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BTC Alert</string>
+    <string name="val_high">Máximo</string>
+    <string name="val_low">Mínimo</string>
+    <string name="notification_channel_name">BTC alert notificaciones</string>
+    <string name="notification_channel_description">BTC alert notificaciones</string>
+    <string name="val_curr">Divisa</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>
